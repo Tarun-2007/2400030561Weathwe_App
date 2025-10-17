@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #74b9ff, #0984e3);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.input-container {
+  margin-bottom: 25px;
+}
+
+input {
+  padding: 12px 16px;
+  border: none;
+  border-radius: 10px;
+  width: 240px;
+  margin-right: 10px;
+  font-size: 1rem;
+  outline: none;
+}
+
+button {
+  padding: 12px 18px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #0c5ec2;
+}
+
+.weather-card {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 25px;
+  border-radius: 15px;
+  width: 320px;
+  margin: 0 auto;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.weather-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.error {
+  color: #ff4d4d;
+  font-weight: bold;
+  margin-top: -10px;
+}
